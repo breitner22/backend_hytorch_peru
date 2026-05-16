@@ -21,20 +21,6 @@ import hytorc_solutions_backend.service.UsuarioService;
 @CrossOrigin(origins = "http://localhost:8085")
 public class FormularioController {
 
-    /*
-     * private final HistorialFormularioService historialService;
-     * private final UsuarioService usuarioService;
-     * private final FormularioService formularioService;
-     * 
-     * public FormularioController(HistorialFormularioService historialService,
-     * UsuarioService usuarioService,
-     * FormularioService formularioService) {
-     * this.historialService = historialService;
-     * this.usuarioService = usuarioService;
-     * this.formularioService = formularioService;
-     * }
-     */
-
     private final HistorialFormularioService historialService;
     private final UsuarioService usuarioService;
     private final FormularioService formularioService;
